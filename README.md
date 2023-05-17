@@ -34,7 +34,7 @@ For example the following email addresses are of valid local parts:
 - john_doe123
 - john-doe
 
-## @ Symbol <a name="at-symbol"></a>
+## The @ Symbol <a name="at-symbol"></a>
 The (`@`) symbol is a required part of the email address, separating the local part and the domain name. 
 
 ## Domain <a name="domain"></a>
@@ -44,3 +44,13 @@ For example the following email addresses are of valid domains:
 - john.doe@example
 - john_doe123@my-domain
 
+## Dot <a name="dot"></a>
+The dot (`.`) is used to separate the domain and the domain extension. In the regex, it is represented by the '.' character.
+
+## Domain Extension <a name="domain-extension"></a>
+The domain extension is the part of the email address that comes after the domain and is separated by a dot. In the regex, it is represented by `([a-z\.]{2,6})`. This part of the regex allows lowercase letters and periods. The curly braces `{2,6}` indicate that the domain extension must have a length between 2 and 6 characters.
+
+Examples of valid domain extensions:
+- .com
+- .org
+- .net
