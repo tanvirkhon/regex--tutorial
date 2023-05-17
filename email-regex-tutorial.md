@@ -63,4 +63,6 @@ Examples of valid domain extensions:
 - .org
 - .net
 
+## Author Information <a name="author-information"></a>
 
+This tutorial was created by me Tanvir Khondakar. I am currently a student at the University of Minnesota Bootcamp. If you have any questions, suggestions, or feedback, please feel free to reach out to me. My GitHub profile is [here](https://github.com/tanvirkhon).
