@@ -11,3 +11,13 @@ In this tutorial we will examine the following regex used to validate email addr
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 This regex makes sure that the email address begins with a sequence of characters, followed by the @ symbol, then a domain name, and finally a domain extension.
+
+## Table of Contents:
+
+1. [Start and End Anchors](#start-end-anchors)
+2. [Local Part](#local-part)
+3. [At Symbol](#at-symbol)
+4. [Domain](#domain)
+5. [Dot](#dot)
+6. [Domain Extension](#domain-extension)
+7. [Author Information](#author-information)
