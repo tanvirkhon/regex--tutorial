@@ -21,3 +21,7 @@ This regex makes sure that the email address begins with a sequence of character
 5. [Dot](#dot)
 6. [Domain Extension](#domain-extension)
 7. [Author Information](#author-information)
+
+## Start and End Anchors <a name="start-end-anchors"></a>
+
+The start (`^`) and end (`$`) anchors are very important when using regex. They make sure that the whole string matches the pattern defined in the regex. This will help prevent additional characters from being matched before or after the email address.
