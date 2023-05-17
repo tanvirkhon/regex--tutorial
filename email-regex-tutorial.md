@@ -36,3 +36,7 @@ For example the following email addresses are of valid local parts:
 - john_doe123
 - john-doe
 
+## The @ Symbol <a name="at-symbol"></a>
+
+The (`@`) symbol is a required part of the email address, separating the local part and the domain name.
+
