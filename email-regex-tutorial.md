@@ -25,3 +25,14 @@ This regex makes sure that the email address begins with a sequence of character
 ## Start and End Anchors <a name="start-end-anchors"></a>
 
 The start (`^`) and end (`$`) anchors are very important when using regex. They make sure that the whole string matches the pattern defined in the regex. This will help prevent additional characters from being matched before or after the email address.
+
+## Local Part <a name="local-part"></a>
+
+The local part of the email address is the part before the '@' symbol. In the regex, it is expressed by the `([a-z0-9_\.-]+)`. This part of the regex allows lowercase letters, digits, underscores, periods, and hyphens. The plus sign at the end (`+`) indicates that one or more characters are allowed in the local part.
+
+For example the following email addresses are of valid local parts:
+
+- john.doe
+- john_doe123
+- john-doe
+
