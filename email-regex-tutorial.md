@@ -53,3 +53,14 @@ For example the following email addresses are of valid domains:
 
 The dot (`.`) is used to separate the domain and the domain extension. In the regex, it is represented by the '.' character.
 
+## Domain Extension <a name="domain-extension"></a>
+
+The domain extension is the part of the email address that comes after the domain and is separated by a dot. In the regex, it is represented by `([a-z\.]{2,6})`. This part of the regex allows lowercase letters and periods. The curly braces `{2,6}` indicate that the domain extension must have a length between 2 and 6 characters.
+
+Examples of valid domain extensions:
+
+- .com
+- .org
+- .net
+
+
