@@ -33,3 +33,14 @@ For example the following email addresses are of valid local parts:
 - john.doe
 - john_doe123
 - john-doe
+
+## @ Symbol <a name="at-symbol"></a>
+The (`@`) symbol is a required part of the email address, separating the local part and the domain name. 
+
+## Domain <a name="domain"></a>
+The domain name is the part of the email address that comes after the '@' symbol and before the domain extension. In the regex, it is represented by `([\da-z\.-]+)`. This part of the regex allows digits, lowercase letters, periods, and hyphens. The plus sign (`+`) indicates that one or more characters are allowed in the domain.
+
+For example the following email addresses are of valid domains:
+- john.doe@example
+- john_doe123@my-domain
+
