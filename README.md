@@ -12,7 +12,7 @@ In this tutorial we will examine the following regex used to validate email addr
 
 This regex makes sure that the email address begins with a sequence of characters, followed by the @ symbol, then a domain name, and finally a domain extension.
 
-Table of Contents:
+## Table of Contents:
 
 1. [Start and End Anchors](#start-end-anchors)
 2. [Local Part](#local-part)
@@ -21,3 +21,7 @@ Table of Contents:
 5. [Dot](#dot)
 6. [Domain Extension](#domain-extension)
 7. [Author Information](#author-information)
+
+## Start and End Anchors <a name="start-end-anchors"></a>
+
+The start (`^`) and end (`$`) anchors are very important when using regex. They make sure that the whole string matches the pattern defined in the regex. This will help prevent additional characters from being matched before or after the email address.
