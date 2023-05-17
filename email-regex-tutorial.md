@@ -49,4 +49,7 @@ For example the following email addresses are of valid domains:
 - john.doe@example
 - john_doe123@my-domain
 
+## Dot <a name="dot"></a>
+
+The dot (`.`) is used to separate the domain and the domain extension. In the regex, it is represented by the '.' character.
 
